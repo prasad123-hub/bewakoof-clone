@@ -1,0 +1,91 @@
+{
+  "main": {
+    "mensProduct": [
+      {
+        "id": "123",
+        "name": "Squid Traingle Half Sleeve Tshirt",
+        "url": "https://images.bewakoof.com/t320/squid-triangle-438601-1635769216-1.jpg",
+        "price": "Rs. 399"
+      },
+      {
+        "id": "1234",
+        "name": "Ghost of Uchiha Half Sleeve T-shirt",
+        "url": "https://images.bewakoof.com/t320/ghost-of-uchiha-men-s-t-shirt-387427-1634624585-1.jpg",
+        "price": "Rs. 399"
+      },
+      {
+        "id": "12345",
+        "name": "The Squid Half Sleeve Tshirt",
+        "url": "https://images.bewakoof.com/t320/the-squids-438603-1635769441-1.jpg",
+        "price": "Rs. 399"
+      },
+      {
+        "id": "123456",
+        "name": "Snazzy Grren Stripe Tshirt",
+        "url": "https://images.bewakoof.com/t320/storm-green-white-vertical-stripe-half-sleeves-stripe-t-shirt-428586-1635597592-1.jpg",
+        "price": "Rs. 399"
+      },
+      {
+        "id": "1234567",
+        "name": "Snazzy Grren Camo Tshirt",
+        "url": "https://images.bewakoof.com/t320/sanzzy-green-plus-size-camo-hoodie-t-shirt-429610-1635687856-1.jpg",
+        "price": "Rs. 399"
+      },
+      {
+        "id": "12345678",
+        "name": "Adrenaline Rush Fit T-shirt",
+        "url": "https://images.bewakoof.com/t320/adrenaline-rush-men-s-street-wear-relaxed-fit-t-shirt-387806-1635930476-1.jpg",
+        "price": "Rs. 399"
+      }
+    ],
+    "womenProduct": [
+      {
+        "name": "Squid Traingle Half Sleeve Tshirt",
+        "url": "https://images.bewakoof.com/t320/cold-eyes-women-s-boyfriend-t-shirt-387437-1634624696-1.jpg",
+        "price": "Rs. 299"
+      },
+      {
+        "name": "Ghost of Uchiha Half Sleeve T-shirt",
+        "url": "https://images.bewakoof.com/t320/surf-the-web-white-street-wear-half-n-half-boyfriend-fit-t-shirt-391696-1636466144-1.jpg",
+        "price": "Rs. 299"
+      },
+      {
+        "name": "The Squid Half Sleeve Tshirt",
+        "url": "https://images.bewakoof.com/t320/lavender-street-wear-boyfriend-fit-t-shirt-391710-1635934188-1.jpg",
+        "price": "Rs. 299"
+      },
+      {
+        "name": "Snazzy Grren Stripe Tshirt",
+        "url": "https://images.bewakoof.com/t320/black-printed-sweatshirt-aw-21-390339-1632976047-1.jpg",
+        "price": "Rs. 299"
+      },
+      {
+        "name": "Snazzy Grren Camo Tshirt",
+        "url": "https://images.bewakoof.com/t320/storm-aop-half-sleeves-t-shirts-433620-1635591043-1.jpg",
+        "price": "Rs. 299"
+      },
+      {
+        "name": "Adrenaline Rush Fit T-shirt",
+        "url": "https://images.bewakoof.com/t320/storm-green-boyfriend-t-shirts-436133-1635591210-1.jpg",
+        "price": "Rs. 299"
+      }
+    ],
+    "accessories": [
+      {
+        "name": "ABS Circle Women Sandal",
+        "url": "https://images.bewakoof.com/t320/abs-circle-color-women-sandal-376648-1636978529-1.jpg",
+        "price": "Rs. 549"
+      },
+      {
+        "name": "Tie Dye Women Sandal",
+        "url": "https://images.bewakoof.com/t320/tie-dye-yellow-women-sandal-376653-1636978695-1.jpg",
+        "price": "Rs. 499"
+      },
+      {
+        "name": "Black Men's Slipper",
+        "url": "https://images.bewakoof.com/t320/top-secret-adjustable-men-s-slider-423030-1635942382-1.jpg",
+        "price": "Rs. 599"
+      }
+    ]
+  }
+}

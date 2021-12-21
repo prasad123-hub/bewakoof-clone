@@ -1,17 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { render } from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+import App from "./App";
+import Checkout from "./components/pages/Checkout";
+import store from "./app/store";
+import { Provider } from "react-redux";
+import { Auth0Provider } from "@auth0/auth0-react";
+
+const domain = process.env.REACT_APP_AUTH0_DOMAIN;
+const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+const rootElement = document.getElementById("root");
+render(
+  <Auth0Provider
+    domain={domain}
+    clientId={clientId}
+    redirectUri={window.location.origin}
+  >
+    <Provider store={store}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="checkout" element={<Checkout />} />
+        </Routes>
+      </BrowserRouter>
+    </Provider>
+  </Auth0Provider>,
+  rootElement
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

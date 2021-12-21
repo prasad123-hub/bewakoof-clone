@@ -1,0 +1,48 @@
+.footer-container {
+  background: #000000;
+  padding: 2.4rem 9.6rem;
+}
+
+.footer-container img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services {
+  color: #ffffff;
+}
+
+.services p {
+  color: #f6d540;
+  margin-bottom: 1rem;
+}
+
+.services ul li {
+  list-style: none;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.services ul li span {
+  margin-left: 0.4rem;
+}
+
+.footer-btn {
+  padding: 0.6rem;
+  background-color: #f6d540;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.download-btn img {
+  margin-right: 1rem;
+  cursor: pointer;
+}

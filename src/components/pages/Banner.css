@@ -1,0 +1,8 @@
+.grid {
+  margin-top: 1.2rem;
+}
+
+.grid-item {
+  border-radius: 1rem;
+  overflow: hidden;
+}

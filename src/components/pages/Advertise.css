@@ -1,0 +1,9 @@
+.advertise img {
+  width: 100%;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.advertise {
+  overflow: hidden;
+}
